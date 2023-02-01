@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
+    //? Setting
     const OFFSET = 300; //? radius of effects
     const GRID_CONTAINER = "test_grid";
     const GRID_ITEMS = "test_items";
@@ -9,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const COLOR_2 = "rgba(0, 153, 247, 1)";
     const COLOR_3 = "rgba(255, 255, 255, 0)";
     const BORDER_WIDTH = "2px";
+    //? Setting
+
     const angles = []; //in deg
     for (let i = 0; i <= 360; i += 45) {
       angles.push((i * Math.PI) / 180);
