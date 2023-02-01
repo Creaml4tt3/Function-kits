@@ -1,0 +1,33 @@
+.display_none {
+  opacity: 0 !important;
+}
+
+.image_show img {
+  transform: translate(-50%, -50%);
+}
+
+.image_show {
+  opacity: 1;
+  pointer-events: none !important;
+  transform: translate(-50%, -50%);
+  position: absolute !important;
+  transition: opacity 0.3s ease-in, transform 0.5s ease-out;
+}
+
+.text-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 3;
+}
+
+.text-hover-section .elementor-column {
+  justify-content: center;
+}
+
+.text-hover-section .elementor-widget-wrap {
+  max-width: fit-content;
+}
